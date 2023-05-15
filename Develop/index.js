@@ -3,15 +3,15 @@ const fs = require("fs");
 const generateMarkdown = require('./utils/generateMarkdown');
 
 const questions = [
-    "Please enter the project title",
-    "Please enter a description for your project",
-    "Please enter the installation instructions",
-    "Please enter the usage information",
-    "Please enter the contribution guidelines",
-    "Please enter the test instructions",
-    "Please select the license for the project",
-    "Please enter your GitHub username",
-    "Please enter your email address"
+    "Please enter the project title:",
+    "Please enter a description for your project:",
+    "Please enter the installation instructions:",
+    "Please enter the usage information:",
+    "Please enter the contribution guidelines:",
+    "Please enter the test instructions:",
+    "Please select the license for the project:",
+    "Please enter your GitHub username:",
+    "Please enter your email address:"
 ];
 
 function writeToFile(fileName, data) {
