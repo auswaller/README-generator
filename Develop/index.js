@@ -15,7 +15,7 @@ const questions = [
 ];
 
 function writeToFile(fileName, data) {
-    fs.writeFile(`${fileName}.txt`, data,
+    fs.writeFile(`${fileName}.md`, data,
         (err) => err ? console.error(err) : console.log('Successfully wrote file!'));
 }
 
