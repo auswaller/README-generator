@@ -43,7 +43,8 @@ function renderLicenseSection(license) {
     return '';
   }
   else{
-    return `${renderLicenseBadge(license)}${renderLicenseLink(license)}`;
+    return `${renderLicenseBadge(license)}${renderLicenseLink(license)}
+    \nThis project is covered under the ${license} license. Click the badge for more info.`;
   }
 };
 
